@@ -6,3 +6,7 @@
 - [x] redux + rematch/core + immerJS
 - [x] Chakra UI
 - [x] React Icons library
+
+### To install, run:
+
+`npx @alan-ng/next-template`
