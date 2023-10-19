@@ -1,0 +1,36 @@
+name: Deployment
+run-name: Buid and deploy
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hello
+      # - uses: actions/checkout@v4
+      # - uses: actions/setup-node@v3
+      #   with:
+      #     node-version: '18'
+      # - run: yarn install
+      # - name: Create env file
+      #   run: |
+      #     echo NEXT_PUBLIC_API_HOST=${{ secrets.NEXT_PUBLIC_API_HOST }} >> .env.production
+      # - run: yarn build
+      # - name: Copy files
+      #   uses: appleboy/scp-action@v0.1.4
+      #   with:
+      #     host: ${{ secrets.HOST }}
+      #     username: ${{ secrets.USERNAME }}
+      #     key: ${{ secrets.PRIVATE_KEY }}
+      #     source: 'out/*,express-server/*'
+      #     target: /home/ubuntu/next-template
+      #     rm: true
+      # - name: Start server
+      #   uses: appleboy/ssh-action@v1.0.0
+      #   with:
+      #     host: ${{ secrets.HOST }}
+      #     username: ${{ secrets.USERNAME }}
+      #     key: ${{ secrets.PRIVATE_KEY }}
+      #     script: |
+      #       cd /home/ubuntu/next-template/express-server
+      #       npm install
+      #       npm run start

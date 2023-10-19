@@ -1,0 +1,1 @@
+### If you build static (html) files from nextjs template, use this server to serve static file

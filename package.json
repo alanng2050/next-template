@@ -1,0 +1,17 @@
+{
+  "name": "next-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": "./install.sh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanng2050/next-template"
+  }
+}
