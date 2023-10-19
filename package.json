@@ -1,6 +1,6 @@
 {
-  "name": "next-template",
-  "version": "1.0.0",
+  "name": "@alan-ng/next-template",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {

@@ -10,7 +10,7 @@ fi
 
 echo "Creating the project..."
 cp -r $source_dir $project_name
-cp -r "$source_dir/README.md" $project_name
+cp -r $source_dir"../README.md" $project_name
 
 cd $project_name
 git init
