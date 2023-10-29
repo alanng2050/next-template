@@ -11,7 +11,9 @@
     "no-console": "warn",
     "@typescript-eslint/no-explicit-any": "warn",
     "no-duplicate-imports": "error",
-    "no-empty": "warn"
+    "no-empty": "warn",
+    "import/order": "warn",
+    "object-shorthand": "warn"
   },
   "settings": {
     "import/parsers": {
