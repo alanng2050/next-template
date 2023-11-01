@@ -1,6 +1,6 @@
-import { useStoreState } from '@/models'
 import { Card, CardBody, Center, Image, Text } from '@chakra-ui/react'
 import classes from './index.module.scss'
+import { useStoreState } from '@/models'
 
 export function UserCard() {
   const { name, avatar } = useStoreState((s) => s.home.user)

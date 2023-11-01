@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1gsqmhk"
+  >
+    <div
+      class="user_card css-gmuwbf"
+    >
+      <div
+        class="chakra-card css-2dlz7"
+      >
+        <div
+          class="chakra-card__body css-0"
+        >
+          <p
+            class="chakra-text css-1mzsble"
+          >
+            This is Bee
+          </p>
+          <img
+            alt="avatar"
+            class="chakra-image css-v7v99c"
+            src="/avatar.png"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

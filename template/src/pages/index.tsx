@@ -1,5 +1,5 @@
-import { UserCard } from '@/components'
 import { Box } from '@chakra-ui/react'
+import { UserCard } from '@/components'
 
 export default function Home() {
   return (
