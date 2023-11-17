@@ -4,6 +4,7 @@ on: [push]
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    if: ${{ contains(github.event.head_commit.message, '[deploy]') }}
     steps:
       - run: echo hello
       # - uses: actions/checkout@v4
