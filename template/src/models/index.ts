@@ -13,6 +13,11 @@ export const store = init<RootModel>({
   models,
   // add immerPlugin to your store
   plugins: [immerPlugin()],
+  redux: {
+    devtoolOptions: {
+      disabled: true,
+    },
+  },
 })
 
 export type Store = typeof store
